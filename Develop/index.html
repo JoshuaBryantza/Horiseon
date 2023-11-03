@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- changed the div to a header to make it more semantic -->
     <header class="header">
-
+        <!-- took out the span and "class seo" from the h1. I dont understand why it was like that -->
         <h1>Horiseon</h1>
+        <!-- changed div to nav element for semantic reasons -->
         <nav>
             <ul>
                 <li>
@@ -25,11 +27,15 @@
             </ul>
         </nav>
     </header>
+    <!--  I removed the "div with class hero from the css and moved the img to the html. I put it in using the img tag instead " -->
     <img src="./assets/images/digital-marketing-meeting.jpg" alt="" class="hero">
-    <!--  <div class="hero"></div> -->
-    <div class="content">
+
+    <!-- changed the div to a main tag for semantic reasons -->
+    <main class="content">
         <section id="search-engine-optimization" class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <!-- Added the "alt" attribute and a picture description to the "alt" attribute -->
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
+                alt="A notepad with SEO, for Search Engine Optimization" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they
@@ -38,7 +44,9 @@
             </p>
         </section>
         <section id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <!-- Added the "alt" attribute and a picture description to the "alt" attribute -->
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right"
+                alt="An image of a graph of a companies online reputation trending upwards" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an
@@ -47,7 +55,9 @@
             </p>
         </section>
         <section id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <!-- Added the "alt" attribute and a picture description to the "alt" attribute -->
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left"
+                alt="People having a meeting with social media icons spead out on the table" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you
@@ -55,7 +65,7 @@
                 increase your lead generation.
             </p>
         </section>
-    </div>
+    </main>
     <aside class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
